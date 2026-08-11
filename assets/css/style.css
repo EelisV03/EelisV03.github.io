@@ -141,6 +141,16 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
 .video-wrap { overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: #000; box-shadow: var(--shadow); }
 .video-wrap video { display: block; width: 100%; height: auto; max-height: 720px; background: #000; }
 .coming-soon { padding: 30px; border: 1px dashed rgba(57,196,255,.38); border-radius: var(--radius); background: var(--accent-soft); color: var(--muted); }
+.drawing-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.drawing-card { display: flex; overflow: hidden; flex-direction: column; padding: 0; }
+.drawing-preview { display: block; overflow: hidden; border-bottom: 1px solid var(--line); background: #f3f5f8; }
+.drawing-preview img { width: 100%; aspect-ratio: 1.414 / 1; object-fit: contain; transition: transform .25s ease; }
+.drawing-preview:hover img { transform: scale(1.015); }
+.drawing-content { display: flex; flex: 1; flex-direction: column; padding: 26px; }
+.drawing-content h3 { margin: 12px 0 10px; }
+.drawing-content p { margin: 0; color: var(--muted); }
+.drawing-content .hero-actions { margin-top: auto; padding-top: 24px; }
+.drawing-meta { color: var(--accent); font-size: .78rem; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
 
 .site-footer { margin-top: 60px; border-top: 1px solid var(--line); }
 .footer-inner { min-height: 120px; display: flex; align-items: center; justify-content: space-between; gap: 24px; color: var(--muted); font-size: .92rem; }
@@ -159,6 +169,7 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
   .gallery { grid-template-columns: 1fr 1fr; }
   .gallery figure:first-child { grid-column: 1 / -1; }
   .process-grid { grid-template-columns: 1fr; }
+  .drawing-grid { grid-template-columns: 1fr 1fr; }
   .sticky-label { position: static; }
 }
 
@@ -180,4 +191,5 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
   .case-meta, .facts, .gallery { grid-template-columns: 1fr; }
   .gallery figure:first-child { grid-column: auto; }
   .gallery img, .gallery figure:first-child img { aspect-ratio: auto; }
+  .drawing-grid { grid-template-columns: 1fr; }
 }
