@@ -152,6 +152,9 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
 
 .case-hero { padding: 92px 0 48px; }
 .case-hero-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr); gap: 48px; align-items: end; }
+.hanoi-case-hero .case-hero-grid { grid-template-columns: minmax(0, 1fr) minmax(320px, .72fr); gap: clamp(48px, 7vw, 96px); align-items: center; }
+.hanoi-case-hero h1 { max-width: 780px; font-size: clamp(3.8rem, 6.3vw, 6.7rem); }
+.hanoi-case-hero .case-meta { align-self: end; padding-bottom: 8px; }
 .case-hero h1 { margin-bottom: 24px; font-size: clamp(2.8rem, 6vw, 5.8rem); }
 .case-meta { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
 .meta-item { padding-top: 14px; border-top: 1px solid var(--line); }
@@ -177,7 +180,7 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
 .video-wrap { width: min(100%, 980px); aspect-ratio: 4 / 3; margin-inline: auto; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: #000; box-shadow: var(--shadow); }
 .video-wrap video { display: block; width: 100%; height: 100%; background: #000; object-fit: cover; object-position: center; }
 .hanoi-card-image img { object-position: center 45%; }
-.hanoi-video { width: min(100%, 760px); aspect-ratio: 7 / 6; margin-inline: auto; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: #000; box-shadow: var(--shadow); }
+.hanoi-video { width: min(100%, 840px); aspect-ratio: 7 / 5; margin-inline: auto; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: #000; box-shadow: var(--shadow); }
 .hanoi-video video { display: block; width: 100%; height: 100%; object-fit: contain; background: #000; }
 .hanoi-gallery { grid-template-columns: repeat(2, 1fr); }
 .hanoi-gallery figure:first-child { grid-column: 1 / -1; }
@@ -209,6 +212,8 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
 
 @media (max-width: 900px) {
+  .hanoi-case-hero .case-hero-grid { grid-template-columns: 1fr; }
+  .hanoi-case-hero .case-meta { align-self: auto; padding-bottom: 0; }
   .hero { min-height: auto; }
   .hero-grid, .split, .contact-grid { grid-template-columns: 1fr; }
   .hero-grid, .split { gap: 44px; }
