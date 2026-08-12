@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Eelis Viskari EV logo</title>
+  <rect width="512" height="512" fill="#fff"/>
+  <path fill="#000" d="M60 26h169v52H122v64h99v53h-99v73h107v53H60z"/>
+  <path fill="#39b8ef" d="M139 119h68l65 222 67-222h67L304 412h-63z"/>
+  <path d="M42 458c17-18 42-20 58-6 14 12 5 24-8 18-15-7-23-19-14-39 18-39 71-68 119-68 65 0 79 28 153 28 53 0 91-12 115-44" fill="none" stroke="#000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
