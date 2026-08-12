@@ -176,6 +176,12 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
 .process-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 .video-wrap { width: min(100%, 980px); aspect-ratio: 4 / 3; margin-inline: auto; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: #000; box-shadow: var(--shadow); }
 .video-wrap video { display: block; width: 100%; height: 100%; background: #000; object-fit: cover; object-position: center; }
+.hanoi-card-image img { object-position: center 45%; }
+.hanoi-video { width: min(100%, 760px); aspect-ratio: 7 / 6; margin-inline: auto; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: #000; box-shadow: var(--shadow); }
+.hanoi-video video { display: block; width: 100%; height: 100%; object-fit: contain; background: #000; }
+.hanoi-gallery { grid-template-columns: repeat(2, 1fr); }
+.hanoi-gallery figure:first-child { grid-column: 1 / -1; }
+.hanoi-gallery img { aspect-ratio: 16 / 9; object-fit: cover; background: #e9edf3; }
 .coming-soon { padding: 30px; border: 1px dashed rgba(57,196,255,.38); border-radius: var(--radius); background: var(--accent-soft); color: var(--muted); }
 .drawing-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 .drawing-card { display: flex; overflow: hidden; flex-direction: column; padding: 0; }
@@ -237,6 +243,8 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
   .gallery figure:first-child { grid-column: auto; }
   .gallery img, .gallery figure:first-child img { aspect-ratio: auto; }
   .drawing-grid { grid-template-columns: 1fr; }
+  .hanoi-gallery { grid-template-columns: 1fr; }
+  .hanoi-gallery figure:first-child { grid-column: auto; }
   .portfolio-hero { min-height: calc(100svh - 68px); }
   .portfolio-hero-inner { min-height: calc(100svh - 68px); padding-block: 300px 58px; }
   .portfolio-portrait img { object-position: 38% center; }
