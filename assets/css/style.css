@@ -189,7 +189,7 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
   .drawing-grid { grid-template-columns: 1fr 1fr; }
   .sticky-label { position: static; }
   .portfolio-hero { min-height: calc(100svh - 76px); overflow: hidden; padding: 0; background: var(--bg); }
-  .portfolio-hero-inner { position: relative; display: flex; min-height: calc(100svh - 76px); align-items: flex-end; padding-block: 320px 76px; }
+  .portfolio-hero-inner { position: static; display: flex; min-height: calc(100svh - 76px); align-items: flex-end; padding-block: 320px 76px; }
   .portfolio-hero-copy { z-index: 3; width: min(100%, 720px); max-width: 720px; }
   .portfolio-hero-copy .lead { color: #d7e1ee; }
   .portfolio-portrait { position: absolute; inset: 0; z-index: 1; border: 0; border-radius: 0; box-shadow: none; }
