@@ -127,7 +127,11 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
 .contact-card a:not(.button) { color: var(--accent); font-weight: 750; text-underline-offset: 5px; }
 .social-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .social-card { display: flex; min-height: 320px; flex-direction: column; }
-.social-mark { display: grid; place-items: center; width: 50px; aspect-ratio: 1; border: 1px solid rgba(57,196,255,.34); border-radius: 15px; background: var(--accent-soft); color: var(--accent); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .9rem; font-weight: 850; letter-spacing: -.03em; }
+.social-mark { display: grid; place-items: center; width: 56px; aspect-ratio: 1; border-radius: 16px; color: #fff; box-shadow: 0 12px 30px rgba(0,0,0,.2); }
+.social-mark svg { width: 29px; height: 29px; fill: currentColor; }
+.social-mark-linkedin { background: #0a66c2; }
+.social-mark-instagram { background: radial-gradient(circle at 32% 105%, #ffd600 0 18%, #ff7a00 32%, #ff0169 54%, #d300c5 72%, #7638fa 100%); }
+.social-mark-github { border: 1px solid rgba(255,255,255,.16); background: #24292f; }
 .social-card .hero-actions { margin-top: auto; padding-top: 26px; }
 .social-card .button { width: 100%; }
 .opportunity-panel { padding-block: clamp(12px, 2vw, 24px); }
