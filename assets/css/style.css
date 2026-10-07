@@ -78,7 +78,6 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
 .portfolio-hero-inner { display: grid; grid-template-columns: minmax(0, .92fr) minmax(420px, 1.08fr); gap: clamp(42px, 6vw, 88px); align-items: center; }
 .portfolio-hero-copy { position: relative; z-index: 2; text-align: left; }
 .portfolio-hero-copy h1 { margin-bottom: 18px; font-size: clamp(3.3rem, 6.2vw, 6.4rem); text-wrap: balance; }
-.portfolio-role { margin: 0 0 20px; color: var(--text); font-size: clamp(1.3rem, 2.2vw, 2rem); font-weight: 750; letter-spacing: -.02em; }
 .portfolio-hero-copy .lead { color: var(--muted); }
 .portfolio-secondary { border-color: var(--line) !important; background: transparent !important; }
 .portfolio-portrait { position: relative; margin: 0; overflow: hidden; border: 1px solid rgba(57,196,255,.24); border-radius: 30px; background: var(--surface); box-shadow: var(--shadow); }
@@ -156,9 +155,6 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
 .opportunity-copy h2 { max-width: 800px; margin-bottom: 20px; font-size: clamp(2.2rem, 4.5vw, 4.2rem); }
 .opportunity-copy .lead { max-width: 720px; }
 .opportunity-copy .eyebrow + .lead { margin-top: 18px; }
-.skills-grid { grid-template-columns: repeat(4, 1fr); }
-.skill-card { min-height: 250px; }
-.skill-card h3 { margin-top: auto; padding-top: 54px; }
 .robot-arm-card-image { background: #07101f; }
 .robot-arm-card-image img { object-fit: cover; }
 .robot-arm-hero-media img { background: #07101f; }
@@ -251,7 +247,6 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
   .hero-grid, .split, .contact-grid, .career-layout { grid-template-columns: 1fr; }
   .hero-grid, .split { gap: 44px; }
   .cards-3 { grid-template-columns: 1fr 1fr; }
-  .skills-grid { grid-template-columns: 1fr 1fr; }
   .case-hero-grid, .case-intro { grid-template-columns: 1fr; }
   .gallery { grid-template-columns: 1fr 1fr; }
   .gallery figure:first-child { grid-column: 1 / -1; }
@@ -279,7 +274,7 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
   .hero { padding: 70px 0; }
   .page-hero { padding: 76px 0 42px; }
   .section { padding: 74px 0; }
-  .cards-3, .cards-2, .skills-grid { grid-template-columns: 1fr; }
+  .cards-3, .cards-2 { grid-template-columns: 1fr; }
   .section-heading, .footer-inner { align-items: flex-start; flex-direction: column; }
   .card, .status-card { padding: 24px; }
   .cta { padding: 30px 24px; }
@@ -296,7 +291,6 @@ h1 { max-width: 880px; margin-bottom: 26px; font-size: clamp(3rem, 7vw, 6.7rem);
   .portfolio-hero-inner { min-height: calc(100svh - 68px); padding-block: 300px 58px; }
   .portfolio-portrait img { object-position: 38% center; }
   .portfolio-hero-copy h1 { font-size: clamp(2.7rem, 14vw, 4.4rem); }
-  .portfolio-role { font-size: 1.2rem; }
   .social-mark { width: 64px; border-radius: 18px; }
   .social-mark svg { width: 35px; height: 35px; }
   .email-card { grid-template-columns: auto 1fr; }
