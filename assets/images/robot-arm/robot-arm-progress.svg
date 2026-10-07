@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Six-axis robot arm project in progress</title>
+  <desc id="desc">A blueprint-style technical illustration of an articulated robot arm with one highlighted planetary joint.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d192b"/><stop offset="1" stop-color="#07101f"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#39c4ff" stop-opacity=".24"/><stop offset="1" stop-color="#39c4ff" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#7cddff" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect width="1200" height="700" fill="url(#grid)"/>
+  <circle cx="530" cy="350" r="320" fill="url(#glow)"/>
+  <g fill="none" stroke="#7cddff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 585h250"/><path d="M330 585v-78l110-35"/><path d="M440 472l130-165"/><path d="M570 307l185-86"/><path d="M755 221l128 80"/><path d="M883 301l82-52"/>
+  </g>
+  <g fill="#12223a" stroke="#39c4ff" stroke-width="10">
+    <circle cx="440" cy="472" r="58"/><circle cx="570" cy="307" r="70"/><circle cx="755" cy="221" r="53"/><circle cx="883" cy="301" r="42"/>
+  </g>
+  <g fill="none" stroke="#7cddff" stroke-width="7"><circle cx="570" cy="307" r="40"/><circle cx="570" cy="307" r="20"/><path d="M570 267v80M530 307h80M542 279l56 56M598 279l-56 56"/></g>
+  <g font-family="Inter,Segoe UI,sans-serif">
+    <text x="72" y="92" fill="#39c4ff" font-size="24" font-weight="800" letter-spacing="5">ROBOTICS BUILD</text>
+    <text x="72" y="148" fill="#f4f8ff" font-size="46" font-weight="800">WE-R2.4 SIX-AXIS ARM</text>
+    <text x="72" y="190" fill="#aab9cc" font-size="24">Mechanical assembly and joint validation</text>
+    <path d="M630 360l128 82" stroke="#39c4ff" stroke-width="3"/>
+    <circle cx="570" cy="307" r="88" fill="none" stroke="#39c4ff" stroke-width="3" stroke-dasharray="10 12"/>
+    <text x="770" y="448" fill="#f4f8ff" font-size="23" font-weight="700">FIRST PLANETARY JOINT</text>
+    <text x="770" y="482" fill="#aab9cc" font-size="20">Motor installed · test pending</text>
+    <rect x="72" y="590" width="210" height="48" rx="24" fill="#39c4ff" fill-opacity=".14" stroke="#39c4ff"/>
+    <text x="177" y="621" fill="#7cddff" font-size="18" text-anchor="middle" font-weight="800" letter-spacing="2">IN PROGRESS</text>
+  </g>
+</svg>

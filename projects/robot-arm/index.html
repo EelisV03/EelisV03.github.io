@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An in-progress build of a 3D-printed WE-R2.4 six-axis robot arm by Eelis Viskari.">
+  <title>Six-Axis Robot Arm | Eelis Viskari</title>
+  <link rel="stylesheet" href="/assets/css/style.css?v=20261007-2">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header"><nav class="nav container" aria-label="Main navigation"><a class="brand" href="/" aria-label="Eelis Viskari, home"><span class="brand-mark"><img src="/assets/images/ev-logo.svg?v=20260812-3" alt=""></span><span class="brand-name">EELIS VISKARI</span></a><ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/projects/" aria-current="page">Projects</a></li><li><a href="/career/">Career Path</a></li><li><a href="/contact/">Contact</a></li></ul></nav></header>
+  <main id="main-content">
+    <header class="case-hero">
+      <div class="container">
+        <div class="case-hero-grid">
+          <div><p class="eyebrow">Robotics build · <span class="status-pill">In progress</span></p><h1>Building a six-axis <span class="accent">robot arm.</span></h1><p class="lead">An early-stage build of the 3D-printed WE-R2.4 robot arm, beginning with the mechanical assembly and validation of its motor-driven planetary joints.</p><div class="tags"><span class="tag">3D printing</span><span class="tag">Stepper motors</span><span class="tag">Planetary gearing</span><span class="tag">ESP32 planned</span></div></div>
+          <div class="case-meta"><div class="meta-item"><span class="meta-label">Project type</span><span class="meta-value">Independent build</span></div><div class="meta-item"><span class="meta-label">Started</span><span class="meta-value">2026</span></div><div class="meta-item"><span class="meta-label">Current stage</span><span class="meta-value">First joint assembly</span></div><div class="meta-item"><span class="meta-label">Status</span><span class="meta-value">Not yet tested</span></div></div>
+        </div>
+        <figure class="case-media robot-arm-hero-media"><img src="/assets/images/robot-arm/robot-arm-progress.svg" alt="Technical illustration showing the six-axis robot arm as an in-progress build"><figcaption>Project status: printed parts and the first motorised planetary joint are being assembled.</figcaption></figure>
+      </div>
+    </header>
+
+    <section class="section"><div class="container case-intro"><div><p class="eyebrow">Current state</p><h2>Starting with the mechanics.</h2></div><div class="case-copy"><p>I have printed the robot arm parts from the WE-R2.4 model and started assembling one of the joints. A motor has been installed into the planetary joint, but the completed joint has not yet been electrically tested.</p><p>This page is a build log rather than a finished case study. It will be updated as the mechanics, electronics and control system move from individual components to a working six-axis robot.</p><div class="facts"><div class="fact"><strong>Printed</strong><span>Robot arm parts</span></div><div class="fact"><strong>Assembled</strong><span>First planetary joint</span></div><div class="fact"><strong>Next proof point</strong><span>Controlled joint movement</span></div></div></div></div></section>
+
+    <section class="section compact"><div class="container"><div class="section-heading"><div><p class="eyebrow">Build roadmap</p><h2>What happens next.</h2></div></div><div class="process-grid">
+      <article class="card"><span class="card-number">01 / TEST</span><h3>Bench-test the first joint</h3><p>Connect the motor and driver, confirm the direction of motion and check whether the printed planetary mechanism runs without binding.</p></article>
+      <article class="card"><span class="card-number">02 / MEASURE</span><h3>Evaluate the mechanism</h3><p>Inspect backlash, output movement, noise, heat and the joint’s ability to carry load before repeating the design across the arm.</p></article>
+      <article class="card"><span class="card-number">03 / INTEGRATE</span><h3>Build the control system</h3><p>Develop the ESP32-based electronics, motor-driver setup, power distribution and limit-switch strategy for coordinated motion.</p></article>
+    </div></div></section>
+
+    <section class="section compact"><div class="container cta"><p class="eyebrow">Honest project status</p><h2>The mechanism is built, but not proven yet.</h2><p>The next meaningful milestone is a repeatable powered movement test. Results, failures and design changes will be documented here as the project progresses.</p><div class="hero-actions"><a class="button" href="/projects/">Back to projects</a><a class="button secondary" href="/contact/">Contact me</a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>© 2026 Eelis Viskari</span><span>Robotics engineering portfolio · <a href="https://github.com/EelisV03">GitHub</a></span></div></footer>
+</body>
+</html>
